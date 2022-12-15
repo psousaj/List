@@ -4,7 +4,8 @@ public class LinkedList implements List{
 
 	@Override
 	public void add(int value) {
-		// TODO Auto-generated method stub
+		
+		
 		
 	}
 

@@ -38,7 +38,9 @@ public class App {
 	
 	public static void searchOp() {
 		int value = inputInt("Informe o numero: ");
-		outputText(""+list.search(value));
+		outputText(String
+					.valueOf(list.search(value))
+					.toUpperCase());
 	}
 	public static void main(String[] args) {
 		
