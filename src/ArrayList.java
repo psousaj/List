@@ -26,7 +26,7 @@ public class ArrayList implements List {
 		}
 		
 		//copia por cima do elemento que queremos remover
-		int lastIndex = quantity -1;
+		int lastIndex = quantity -1;        
 		for(int i = foundIndex; i<lastIndex; i++) {
 			data[i] = data[i+1];
 		}
@@ -58,7 +58,7 @@ public class ArrayList implements List {
 		return quantity;
 	}
 
-	public boolean search(int value) {
+	public boolean search(int value) {                //IMPLEMENTAÇÂO DO SEARCH PRIMEIRA QUESTÂO
 		boolean find = false;
 		
 		for (int i = 0; i < quantity; i++) {
